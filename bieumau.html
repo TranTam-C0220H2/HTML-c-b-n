@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biểu mẫu</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset><legend>Tài khoản</legend>
+        <h2>Tài khoản đăng nhập</h2>
+            <label><input type="text" name="account" value="admin"></label><br>
+            <label><input type="password" name="password" value="admin"></label><br>
+            <p></p>
+            <input type="submit" value="Login">
+        </fieldset>
+        <fieldset><legend>Nhập</legend>
+        <h2>Thông tin hàng hóa</h2>
+        <ol>
+            <li><label>Tên hàng hóa: <input type="text" name="Tên hàng hóa"></label></li><br>
+            <li>Mô tả hàng hóa<br>
+                <textarea cols="50" rows="5">Mô tả hàng hóa</textarea>
+            </li>
+            <li><label>Số lượng: <input type="text" name="Số lượng"></label></li><br>
+            <li><label>Giá nhập: <input type="text" name="Giá nhập"></label></li><br>
+            <li>Người nhập:<br>
+            <label><input type="radio" name="Người nhập" value="nguoinhap">Nguyễn Văn A</label><br>
+            <label><input type="radio" name="Người nhập" value="nguoinhap">Trần Văn B</label><br>
+            <label><input type="radio" name="Người nhập" value="nguoinhap">Đào Thị C</label><br>
+            <label><input type="radio" name="Người nhập" value="nguoinhap">Lương Văn D</label><br>
+            <li>Nơi nhập:<br>
+            <select name="Công ty">
+                <option value="cty A">Công ty A</option>
+                <option value="cty B">Công ty B</option>
+                <option value="cty C">Công ty C</option>
+                <option value="cty D">Công ty D</option>
+            </select><br></li>
+            <li>Loại hàng hóa:<br>
+            <label><input type="checkbox" name="Loại hàng hóa" value="loaihanghoa">Máy tính</label><br>
+            <label><input type="checkbox" name="Loại hàng hóa" value="loaihanghoa">Máy in</label><br>
+            <label><input type="checkbox" name="Loại hàng hóa" value="loaihanghoa">Camera</label><br></li>
+            <p></p>
+            <input type="submit" value="Send Data">
+            <input type="reset" value="Reset">
+            </fieldset>
+        </ol>
+    </form>
+
+
+
+
+
+</body>
+</html>
